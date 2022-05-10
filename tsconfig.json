@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/navBar.jsx", "src/components/createNFT/index.jsx", "src/components/offers/offerList.jsx"],
   "exclude": ["node_modules"]
 }
