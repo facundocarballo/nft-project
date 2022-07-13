@@ -33,7 +33,7 @@ export const NFT = ({props}: NFTProps) => {
                 <VStack w='full' h='70%' bg={bgSoft} borderRadius={7}>
                     <Spacer />
                     <Image
-                    src={props.photoURL}
+                    src={props.photoURL != '' ? props.photoURL : 'https://i.ibb.co/zJ5G2zb/nft-Without-Img.png'}
                     alt='NFT Image'
                     boxSize='150px'
                     />
